@@ -10,7 +10,7 @@ spec:
     name     : in-cluster
     namespace: reloader
   source:
-    path   : "deployments/kubernetes/chart"
+    path   : "deployments/kubernetes/chart/reloader"
     repoURL: "https://github.com/stakater/Reloader.git"
     targetRevision: HEAD
     helm:
