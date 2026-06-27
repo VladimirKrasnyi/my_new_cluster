@@ -13,6 +13,8 @@ spec:
     path   : "deployments/kubernetes/chart"
     repoURL: "https://github.com/stakater/Reloader.git"
     targetRevision: HEAD
+    helm:
+      releaseName: reloader
   project: default
   syncPolicy:
     automated:
